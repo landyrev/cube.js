@@ -2,9 +2,7 @@ const BaseDriver = require('@cubejs-backend/query-orchestrator/driver/BaseDriver
 const { Pool } = require('pg');
 
 const GenericTypeToPostgres = {
-  string: 'text',
-  datetime: 'timestamp',
-  integer: 'int'
+  string: 'text'
 };
 
 class PostgresDriver extends BaseDriver {
